@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Pokémon Finder</h1>
+        <div class="search-box">
+            <input type="text" id="pokemon-name" placeholder="Skriv inn pokémon-navn...">
+            <button id="search-btn">Søk</button>
+        </div>
+
+        <div id="pokemon-card" class="pokemon-card hidden"></div>
+        
+        <p id="error-msg" class="error hidden">Fant ikke pokémonen. Sjekk skrivemåten!</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
